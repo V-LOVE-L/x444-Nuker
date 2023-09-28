@@ -428,7 +428,7 @@ class x444:
             self.menu()
         
         elif ans == "12":
-            print("{}({}x444{}) Thanks for using x444!".format("\x1b[0m", "\x1b[38;5;21m", "\x1b[0m"))
+            print("{}({}x444{}) Thanks for using DEMON".format("\x1b[0m", "\x1b[38;5;21m", "\x1b[0m"))
             time.sleep(1.5)
             os._exit(0)
             
@@ -442,7 +442,7 @@ async def on_ready():
 
 if __name__ == "__main__":
     try:
-        os.system("title x444 Nuker ^| Authentication & mode con: cols=95 lines=25")
+        os.system("title DEMON Nuker ^| Authentication & mode con: cols=95 lines=25")
         guildid = input("{}({}x444{}) Guild ID{}:{} ".format("\x1b[0m", "\x1b[38;5;21m", "\x1b[0m", "\x1b[38;5;21m", "\x1b[0m"))
         __client__.run(token, bot=True)
     except Exception as e:
